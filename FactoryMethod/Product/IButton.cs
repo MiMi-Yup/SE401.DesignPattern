@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPattern.Abstract_Factory
+namespace FactoryMethod.Product
 {
-    internal interface ITextBox
+    internal interface IButton
     {
-        string Value { get; set; }
         string Render();
-        string OnTextChange(string text);
+        string OnClick(string text);
     }
 }

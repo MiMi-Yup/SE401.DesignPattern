@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{08BF8C1E-E363-42C7-9327-D94D246887FC}</ProjectGuid>
+    <ProjectGuid>{81853D70-301C-440A-AB3A-0E679697808F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DesignPattern</RootNamespace>
-    <AssemblyName>DesignPattern</AssemblyName>
+    <RootNamespace>AbstractFactory</RootNamespace>
+    <AssemblyName>AbstractFactory</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,27 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract Factory\IAbstractFactoryFormSubmit.cs" />
-    <Compile Include="Abstract Factory\IButton.cs" />
-    <Compile Include="Abstract Factory\ITextBox.cs" />
-    <Compile Include="Abstract Factory\MacButton.cs" />
-    <Compile Include="Abstract Factory\MacFormSubmit.cs" />
-    <Compile Include="Abstract Factory\MacTextBox.cs" />
-    <Compile Include="Abstract Factory\WinButton.cs" />
-    <Compile Include="Abstract Factory\WinFormSubmit.cs" />
-    <Compile Include="Abstract Factory\WinTextBox.cs" />
-    <Compile Include="Factory Method\Dialog.cs" />
-    <Compile Include="Factory Method\IButton.cs" />
-    <Compile Include="Factory Method\MacButton.cs" />
-    <Compile Include="Factory Method\MacDialog.cs" />
-    <Compile Include="Factory Method\WinButton.cs" />
-    <Compile Include="Factory Method\WinDialog.cs" />
+    <Compile Include="Factories\MacFormSubmit.cs" />
+    <Compile Include="Factories\WinFormSubmit.cs" />
+    <Compile Include="Interfaces\IAbstractFactoryFormSubmit.cs" />
+    <Compile Include="Interfaces\IButton.cs" />
+    <Compile Include="Interfaces\ITextBox.cs" />
+    <Compile Include="Products\MacButton.cs" />
+    <Compile Include="Products\MacTextBox.cs" />
+    <Compile Include="Products\WinButton.cs" />
+    <Compile Include="Products\WinTextBox.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FactoryMethod.ConcreteProduct;
+using FactoryMethod.Creator;
+using FactoryMethod.Product;
 
-namespace DesignPattern.Factory_Method
+namespace FactoryMethod.ConcreteCreator
 {
     internal class WinDialog : Dialog
     {

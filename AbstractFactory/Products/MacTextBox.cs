@@ -1,10 +1,11 @@
-﻿using System;
+﻿using AbstractFactory.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPattern.Abstract_Factory
+namespace AbstractFactory.Products
 {
     internal class MacTextBox : ITextBox
     {

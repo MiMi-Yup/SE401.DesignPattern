@@ -1,21 +1,22 @@
-﻿using System;
+﻿using AbstractFactory.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPattern.Abstract_Factory
+namespace AbstractFactory.Products
 {
-    internal class MacButton : IButton
+    internal class WinButton : IButton
     {
         public string OnClick(string text)
         {
-            return $"Mac button clicked. Message: {text}";
+            return $"Win button clicked. Message: {text}";
         }
 
         public string Render()
         {
-            return "Rendering Mac button...";
+            return "Rendering Win button...";
         }
     }
 }

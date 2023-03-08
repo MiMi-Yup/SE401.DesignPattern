@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPattern.Abstract_Factory
+namespace AbstractFactory.Interfaces
 {
     internal interface IAbstractFactoryFormSubmit
     {
