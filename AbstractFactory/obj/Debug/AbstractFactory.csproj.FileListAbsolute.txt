@@ -1,0 +1,8 @@
+C:\Users\Thiet\source\repos\SE401.DesignPattern\AbstractFactory\bin\Debug\AbstractFactory.exe.config
+C:\Users\Thiet\source\repos\SE401.DesignPattern\AbstractFactory\bin\Debug\AbstractFactory.exe
+C:\Users\Thiet\source\repos\SE401.DesignPattern\AbstractFactory\bin\Debug\AbstractFactory.pdb
+C:\Users\Thiet\source\repos\SE401.DesignPattern\AbstractFactory\obj\Debug\AbstractFactory.csproj.AssemblyReference.cache
+C:\Users\Thiet\source\repos\SE401.DesignPattern\AbstractFactory\obj\Debug\AbstractFactory.csproj.SuggestedBindingRedirects.cache
+C:\Users\Thiet\source\repos\SE401.DesignPattern\AbstractFactory\obj\Debug\AbstractFactory.csproj.CoreCompileInputs.cache
+C:\Users\Thiet\source\repos\SE401.DesignPattern\AbstractFactory\obj\Debug\AbstractFactory.exe
+C:\Users\Thiet\source\repos\SE401.DesignPattern\AbstractFactory\obj\Debug\AbstractFactory.pdb

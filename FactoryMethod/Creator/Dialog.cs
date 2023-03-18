@@ -10,11 +10,5 @@ namespace FactoryMethod.Creator
     internal abstract class Dialog
     {
         public abstract IButton CreateButton();
-
-        public string DoSomething(string text)
-        {
-            IButton button = CreateButton();
-            return $"{button.Render()} ---> {button.OnClick(text)}";
-        }
     }
 }

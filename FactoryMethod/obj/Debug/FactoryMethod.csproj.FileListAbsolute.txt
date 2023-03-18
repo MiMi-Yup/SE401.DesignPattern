@@ -1,0 +1,8 @@
+C:\Users\Thiet\source\repos\SE401.DesignPattern\FactoryMethod\bin\Debug\FactoryMethod.exe.config
+C:\Users\Thiet\source\repos\SE401.DesignPattern\FactoryMethod\bin\Debug\FactoryMethod.exe
+C:\Users\Thiet\source\repos\SE401.DesignPattern\FactoryMethod\bin\Debug\FactoryMethod.pdb
+C:\Users\Thiet\source\repos\SE401.DesignPattern\FactoryMethod\obj\Debug\FactoryMethod.csproj.AssemblyReference.cache
+C:\Users\Thiet\source\repos\SE401.DesignPattern\FactoryMethod\obj\Debug\FactoryMethod.csproj.SuggestedBindingRedirects.cache
+C:\Users\Thiet\source\repos\SE401.DesignPattern\FactoryMethod\obj\Debug\FactoryMethod.csproj.CoreCompileInputs.cache
+C:\Users\Thiet\source\repos\SE401.DesignPattern\FactoryMethod\obj\Debug\FactoryMethod.exe
+C:\Users\Thiet\source\repos\SE401.DesignPattern\FactoryMethod\obj\Debug\FactoryMethod.pdb

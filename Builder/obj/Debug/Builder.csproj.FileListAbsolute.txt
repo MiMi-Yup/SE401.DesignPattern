@@ -1,0 +1,8 @@
+C:\Users\Thiet\source\repos\SE401.DesignPattern\Builder\bin\Debug\Builder.exe.config
+C:\Users\Thiet\source\repos\SE401.DesignPattern\Builder\bin\Debug\Builder.exe
+C:\Users\Thiet\source\repos\SE401.DesignPattern\Builder\bin\Debug\Builder.pdb
+C:\Users\Thiet\source\repos\SE401.DesignPattern\Builder\obj\Debug\Builder.csproj.AssemblyReference.cache
+C:\Users\Thiet\source\repos\SE401.DesignPattern\Builder\obj\Debug\Builder.csproj.SuggestedBindingRedirects.cache
+C:\Users\Thiet\source\repos\SE401.DesignPattern\Builder\obj\Debug\Builder.csproj.CoreCompileInputs.cache
+C:\Users\Thiet\source\repos\SE401.DesignPattern\Builder\obj\Debug\Builder.exe
+C:\Users\Thiet\source\repos\SE401.DesignPattern\Builder\obj\Debug\Builder.pdb

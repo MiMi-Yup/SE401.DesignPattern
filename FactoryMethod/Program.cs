@@ -1,5 +1,6 @@
 ﻿using FactoryMethod.ConcreteCreator;
 using FactoryMethod.Creator;
+using FactoryMethod.Product;
 using System;
 
 namespace FactoryMethod
@@ -23,7 +24,8 @@ namespace FactoryMethod
 
             if (dialog != null)
             {
-                Console.WriteLine(dialog.DoSomething("Yoh"));
+                IButton button = dialog.CreateButton();
+                Console.WriteLine(button.Render());
             }
         }
     }
