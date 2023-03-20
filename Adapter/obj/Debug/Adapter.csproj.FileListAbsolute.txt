@@ -1,0 +1,8 @@
+C:\Users\Lenovo\Documents\GitHub\SE401.DesignPattern\Adapter\bin\Debug\Adapter.exe.config
+C:\Users\Lenovo\Documents\GitHub\SE401.DesignPattern\Adapter\bin\Debug\Adapter.exe
+C:\Users\Lenovo\Documents\GitHub\SE401.DesignPattern\Adapter\bin\Debug\Adapter.pdb
+C:\Users\Lenovo\Documents\GitHub\SE401.DesignPattern\Adapter\obj\Debug\Adapter.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Documents\GitHub\SE401.DesignPattern\Adapter\obj\Debug\Adapter.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Documents\GitHub\SE401.DesignPattern\Adapter\obj\Debug\Adapter.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\GitHub\SE401.DesignPattern\Adapter\obj\Debug\Adapter.exe
+C:\Users\Lenovo\Documents\GitHub\SE401.DesignPattern\Adapter\obj\Debug\Adapter.pdb
