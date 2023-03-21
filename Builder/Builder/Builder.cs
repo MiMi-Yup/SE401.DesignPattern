@@ -10,6 +10,7 @@ namespace Builder.Builder
 {
     internal interface Builder
     {
+        Builder ResetBuilder();
         Builder BuildFloor();
         Builder BuildDoor();
         Builder BuildWall();

@@ -11,10 +11,15 @@ namespace Builder
         static void Main(string[] args)
         {
             HouseBuilder builder = new HouseBuilder();
-            NormalDirector director = new NormalDirector();
-            director.Director(builder);
-            House product= builder.GetProduct();
-            Console.WriteLine(string.Join("\n-->", product.step));
+            NormalDirector director = new NormalDirector(builder);
+
+            director.NormalHouse();
+            House normalHouse= builder.GetProduct();
+            Console.WriteLine("Normal house:\n" + string.Join("\n-->", normalHouse.step));
+
+            director.Penhouse();
+            House penhouse = builder.GetProduct();
+            Console.WriteLine("Penhouse:\n" + string.Join("\n-->", penhouse.step));
         }
     }
 }

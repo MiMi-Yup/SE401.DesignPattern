@@ -18,9 +18,10 @@ namespace Builder.ConcreteBuilder
             ResetBuilder();
         }
 
-        public void ResetBuilder()
+        public Builder.Builder ResetBuilder()
         {
             product = new House();
+            return this;
         }
 
         public Builder.Builder BuildFloor()

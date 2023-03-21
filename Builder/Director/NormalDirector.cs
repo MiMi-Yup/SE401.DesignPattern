@@ -9,14 +9,35 @@ namespace Builder.Director
 {
     internal class NormalDirector
     {
-        public Builder.Builder Director(Builder.Builder builder)
+        private Builder.Builder builder;
+
+        public NormalDirector(Builder.Builder builder)
         {
-            builder.BuildFloor()
+            this.builder = builder;
+        }
+
+        public void NormalHouse()
+        {
+            builder
+                .ResetBuilder()
+                .BuildFloor()
                 .BuildWall()
                 .BuildDoor()
                 .BuildWindows()
                 .BuildRoof();
-            return builder;
+        }
+
+        public void Penhouse()
+        {
+            builder
+                .ResetBuilder()
+                .BuildFloor()
+                .BuildWall()
+                .BuildDoor()
+                .BuildWindows()
+                .BuildRoof()
+                .BuildSwimPool()
+                .BuildGarden();
         }
     }
 }
