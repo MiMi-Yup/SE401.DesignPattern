@@ -22,13 +22,13 @@ namespace Flyweight
                 switch (cars[rnd.Next(0, 3)])
                 {
                     case "Ford":
-                        new Ford(rnd.Next(1000, 3000), rnd.Next(1000, 3000), rnd.Next(1000, 3000)).ShowInfo("", 4.5f, "");
+                        new Ford(100, 100, 100).ShowInfo("", 4.5f, "");
                         break;
                     case "Toyota":
-                        new Toyota(rnd.Next(1000, 3000), rnd.Next(1000, 3000), rnd.Next(1000, 3000)).ShowInfo("", 4.5f, "");
+                        new Toyota(100, 100, 100).ShowInfo("", 4.5f, "");
                         break; ;
                     case "Mazda":
-                        new Mazda(rnd.Next(1000, 3000), rnd.Next(1000, 3000), rnd.Next(1000, 3000)).ShowInfo("", 4.5f, "");
+                        new Mazda(100, 100, 100).ShowInfo("", 4.5f, "");
                         break;
                     default:
                         throw new ArgumentException("Not found");
@@ -43,7 +43,7 @@ namespace Flyweight
         public class FlyweightFactory
         {
             private IDictionary<String, ICar> cars = new Dictionary<String, ICar>();
-            private Random rnd = new Random();
+            /*private Random rnd = new Random();*/
 
             public ICar GetCar(string name)
             {
@@ -52,13 +52,13 @@ namespace Flyweight
                     switch (name)
                     {
                         case "Ford":
-                            cars.Add(name, new Ford(rnd.Next(1000, 3000), rnd.Next(1000, 3000), rnd.Next(1000, 3000)));
+                            cars.Add(name, new Ford(100, 100, 100));
                             break;
                         case "Toyota":
-                            cars.Add(name, new Toyota(rnd.Next(1000, 3000), rnd.Next(1000, 3000), rnd.Next(1000, 3000)));
+                            cars.Add(name, new Toyota(100, 100, 100));
                             break; ;
                         case "Mazda":
-                            cars.Add(name, new Mazda(rnd.Next(1000, 3000), rnd.Next(1000, 3000), rnd.Next(1000, 3000)));
+                            cars.Add(name, new Mazda(100, 100, 100));
                             break;
                         default:
                             throw new ArgumentException("Not found");
@@ -79,12 +79,14 @@ namespace Flyweight
             private readonly float y;
             private readonly float z;
             private string line = "Ford everest";
+
             public Ford(float x, float y, float z)
             {
                 this.x = x;
                 this.y = y;
                 this.z = z;
             }
+
             public void ShowInfo(string idNumber, float fuel, string color)
             {
                 Console.WriteLine($"{line}, ID: {idNumber}, FuelLevel: {fuel}, Color: {color}, Size: {x}.{y}.{z}");
