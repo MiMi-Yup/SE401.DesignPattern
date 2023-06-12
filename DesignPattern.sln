@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{940F5D17-2B61-47D0-A7BB-A20B668BDCD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{2C9A3174-E1EA-4828-9B24-C11E31C82B09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{940F5D17-2B61-47D0-A7BB-A20B668BDCD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{940F5D17-2B61-47D0-A7BB-A20B668BDCD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{940F5D17-2B61-47D0-A7BB-A20B668BDCD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C9A3174-E1EA-4828-9B24-C11E31C82B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9A3174-E1EA-4828-9B24-C11E31C82B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C9A3174-E1EA-4828-9B24-C11E31C82B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C9A3174-E1EA-4828-9B24-C11E31C82B09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
